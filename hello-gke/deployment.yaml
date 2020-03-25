@@ -2,15 +2,16 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata: 
   name: jenkins-cd-helloworld-gke
+  namespace: helloworld-api
 spec: 
   replicas: 2
   selector:
     matchLabels:
-      app: hello
+      app: hello-app
   template:
     metadata:
       labels:
-        app: hello
+        app: hello-app
     spec:
       containers:
       - name: hello-app
