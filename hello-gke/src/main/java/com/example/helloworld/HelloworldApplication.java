@@ -17,7 +17,7 @@ public class HelloworldApplication {
 	class HelloworldController {
 		@GetMapping("/")
 		String hello() {
-			return "Hello ArgoCD " + target + "!";
+			return "Hello ArgoCD 11111 " + target + "!";
 		}
 	}
 	public static void main(String[] args) {
