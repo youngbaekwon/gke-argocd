@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: gcr.io/rugged-precept-258803/jenkinscd-helloworld-gke:latest
+        image: gcr.io/rugged-precept-258803/jenkinscd-helloworld-gke:12
         ports:
         - containerPort: 8080
         env: 
